@@ -121,7 +121,7 @@ class KeyboardTraverserTest extends PHPUnit_Framework_TestCase {
                             $pos[1] = $pos[1] + 1 > 25 ? 0 : $pos[1] + 1;
                         }
                     } elseif ($seqChars[$s] === "E") {
-                        $this->assertTrue($s == count($seqChars) - 1); // Check the position of 
+                        $this->assertTrue($s == count($seqChars) - 1); // Check the position of Enter
                     } else {
                         $this->assertTrue(FALSE);
                     }
